@@ -21,15 +21,15 @@ const char* password = "iotworkshop2021";
 
 const char *TOPIC = guid;  // Topic to sub
 const char *TOPIC_Report = "camera";  // Topic to pub
-const char* mqtt_server = "rmq2.pptik.id"; 
-const char* mqtt_user = "/smartbell:smartbell";
-const char* mqtt_pass= "kF2jt3xe!";
-const char* CL = "camera_esp";
+const char* mqtt_server = ""; 
+const char* mqtt_user = "";
+const char* mqtt_pass= "";
+const char* CL = "";
 
-char ftp_server[] = "167.205.7.27";
-char ftp_user[]   = "sertifikat";
-char ftp_pass[]   = "s3rt1f1ct12!";
-char ftp_port[]   = "2121";
+char ftp_server[] = "";
+char ftp_user[]   = "";
+char ftp_pass[]   = "";
+char ftp_port[]   = "";
 
 ESP32_FTPClient ftp (ftp_server,ftp_user,ftp_pass, 5000, 2);
 //ESP32_FTPClient ftp(ftp_server, 2121, ftp_user, ftp_pass);
